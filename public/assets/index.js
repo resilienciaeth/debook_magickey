@@ -26,7 +26,6 @@ import logomobile from './logomobile.png';
 import iphone1 from './iphone.png';
 import ernest from './ernest.png';
 import dani from './dani.png';
-import folders from './folders.png';
 import utility2 from './2utility.png';
 import utility3 from './3utility.png';
 

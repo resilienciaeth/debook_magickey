@@ -227,11 +227,7 @@ const Home: NextPage = () => {
 
             <div className={styles.imageSide}>
               {/* Image Preview of NFTs */}
-              <img
-                className={styles.image}
-                src={contractMetadata?.image}
-                alt={`${contractMetadata?.name} preview image`}
-              />
+              
 
               {/* Amount claimed so far */}
               <div className={styles.mintCompletionArea}>
@@ -315,12 +311,7 @@ const Home: NextPage = () => {
         )}
       </div>
       {/* Powered by thirdweb */}{" "}
-      <img
-        src="/logo.png"
-        alt="thirdweb Logo"
-        width={135}
-        className={styles.buttonGapTop}
-      />
+      
     </div>
   );
 };
